@@ -151,6 +151,8 @@ def test_street_name(input, expected):
     ("eASt ", True),
     ("NW ", True),
     ("SE ", True),
+    ("E", True),
+    ("M", True)
     # negative assertions
     ("NW.", False),
     ("NW. ", False),
